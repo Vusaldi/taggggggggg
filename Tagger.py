@@ -35,21 +35,21 @@ async def start(event):
  \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Məni Bir Qurupa Əlavə Edin! ➕', 'http://t.me/TaggerAzeRobot?startgroup=a')],
+		      [Button.url('Məni Bir Qurupa Əlavə Edin! ➕', 'http://t.me/TagAzeRobot?startgroup=a')],
                       [Button.url('BTT Botlarım🛠', 'https://t.me/BTTBotlarim')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/BTTResmii')],
-		      [Button.url('👨🏻‍💻 Sahibim, 'https://t.me/Vusaldeveloper')],
+		      [Button.url('👨🏻‍💻 Sahibim, 'https://t.me/Vusaldidaa')],
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Tagger Aze Robot 🇦🇿 Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atır**\n\n**/etag <sebeb> - Emoji ilə stikerlər
+  helptext = "**TaggerAzeRobot🇦🇿 Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atır**\n\n**/etag <sebeb> - Emoji ilə stikerlər
 
 **\n\n**/tektag sebeb -Üzvləri Tək Tək Tağ Edər **\n\n**/admins sebeb - Adminləri Tek Tek Tag Eder**\n\n**/start - botu başladar**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Məni Bir Qurupa Əlavə Edin! ➕', 'http://t.me/TaggerAzeRobot?startgroup=a')],
+                      [Button.url('Məni Bir Qurupa Əlavə Edin! ➕', 'http://t.me/TagAzeRobot?startgroup=a')],
                       [Button.url('BTT Botlarım🛠', 'https://t.me/BTTBotlarim')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/BTTResmii')],
 		      [Button.url('👨🏻‍💻 Sahibim', 'https://t.me/Vusaldeveloper')],
